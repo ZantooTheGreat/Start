@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Bento</title>
+    <link rel=" shortcut icon" type="image/png" href="icons/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="">
+    <button id="themeButton">
+    <i id="themeButton__icon" data-feather="moon"></i>
+</button>
+<div class="container">
+
+<!-- Clock and Greetings  -->
+<div class="timeBlock">
+<div class="clock">
+    <div id="hour" class=""></div>
+    <div id="separator" class=""></div>
+    <div id="minutes" class=""></div>
+</div>
+<div id="greetings" class=""></div>
+</div>
+
+<!-- Date and Weather  -->
+<div class="weatherBlock">
+<div class="weatherBlock__date">
+    <div id="month" class=""></div>
+    <div id="day" class=""></div>
+</div>
+<div class="weatherBlock__weather">
+    <div class="weather-icon">
+    <img src="icons/OneDark/unknown.png" />
+    </div>
+    <div class="temperature-value">
+    <p class="">- °<span class="g">c</span></p>
+    </div>
+    <div class="temperature-description">
+    <p class=""></p>
+    </div>
+</div>
+</div>
+
+<!-- Buttons Links  -->
+<!--<div class="buttonLink"
+style="width: min-content;"
+style="height: min-content;"
+>
+<a
+  target="blank"
+  href="https://www.reddit.com"
+  class="buttonLink__link card buttonLink__link-1">
+  <i class="buttonLink__icon" data-feather="github"></i>
+</a>
+<a
+  target="blank"
+  href="https://twitter.com/home"
+  class="buttonLink__link card buttonLink__link-2">
+  <i class="buttonLink__icon" data-feather="twitter"></i>
+</a>
+<a
+  target="blank"
+  href="https://www.twitch.tv/"
+  class="buttonLink__link card buttonLink__link-3">
+  <i class="buttonLink__icon" data-feather="twitch"></i>
+</a>
+  <a
+  target="blank"
+  href="https://www.youtube.com"
+  class="buttonLink__link card buttonLink__link-4">
+  <i class="buttonLink__icon" data-feather="youtube"></i>
+</a>
+<a
+  target="blank"
+  href="https://github.com/ZantooTheGreat"
+  class="buttonLink__link card buttonLink__link-3">
+  <i class="buttonLink__icon" data-feather="github"></i>
+</a>
+</div> -->
+
+<!-- Service List  -->
+<div class="card list list__1">
+<i class="list__head" data-feather="tool"></i>
+<!-- ConnectWise  -->
+<a target="blank"
+   href="https://na.myconnectwise.net/v2021_1/connectwise.aspx?fullscreen=false&locale=en_US#XQAACADzAAAAAAAAAAA9iIoG07$U9W$XoZrQZV53xoiNpo8pFmnrW_kupJVI2CQBk8FQJA31ijL49nnCPdDV4BxTCzGs0Nb5wBOTTkExB58EDuOLKpn1J8dHYXaf4cxdtqiUV_BKwoev4tM5tlIVUdN8YaTU9BSi580hZwUL8SXNjMImoqP_Wacmnp7W_sEgwA=="
+   class="list__link"
+   >ConnectWise</a>
+<!-- RMM  -->
+<a target="blank"
+   href="https://sso.navigatorlogin.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5e332073-1394-4330-98c1-92b4d2e78c09%26response_type%3Dcode%26scope%3Dopenid%2520email%2520profile%26state%3D%257B%2522data%2522%253Anull,%2522state%2522%253A%2522839c7f249b5b6c8354c0643a52c87498%2522,%2522originUrl%2522%253A%2522https%253A%255C%252F%255C%252Fdashboard.systemmonitor.us%255C%252Fmsp_sso.php%2522%257D%26redirect_uri%3Dhttps%253A%252F%252Fwww.systemmonitor.us%252Fdashboard%252Fmsp_sso.php"
+   class="list__link"
+   >RMM</a>
+<!-- ITGlue  -->
+<a target="blank"
+   href="https://consys.itglue.com/"
+   class="list__link"
+   >ITGlue</a>
+<!-- Bookings  -->
+<a target="blank"
+   href="https://outlook.office.com/bookings/bookingpage"
+   class="list__link"
+   >Bookings</a>
+</div>
+
+<!-- TA List  -->
+<div class="card list list__2">
+<i class="list__head" data-feather="cpu"></i>
+<a href="https://www.office.com/?auth=2" 
+  target="blank" 
+  class="list__link"
+  >Tech Audits</a>
+<a href="https://github.com/Consys-Group" 
+  target="blank" 
+  class="list__link"
+  >Github</a>
+<a
+  href="https://consysgroupinc-my.sharepoint.com/personal/mbusenbark_consysgroup_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmbusenbark%5Fconsysgroup%5Fcom%2FDocuments%2F%5FTechnical%20Audits"
+  target="blank"
+  class="list__link"
+  >OneDrive</a>
+<a
+  href="https://gopro.com/login"
+  target="blank"
+  class="list__link"
+  >GoPro</a>
+<a
+  href="https://flow.microsoft.com/manage?auth_upn=mbusenbark@consysgroup.com&utm_source=office&utm_medium=app_launcher&utm_campaign=office_referrals"
+  target="blank"
+  class="list__link"
+  >Automation</a>
+</div>
+<!-- Social List  -->
+<div class="card list list__3">
+<i class="list__head" data-feather="home"></i>
+<!-- Reddit  -->
+<a target="blank"
+    href="https://www.reddit.com"
+    class="list__link"
+    >Reddit</a>
+<!-- Twitter -->
+<a target="blank"
+    href="https://twitter.com/home"
+    class="list__link"
+    >Twitter</a>
+<!-- Twitch  -->
+<a target="blank"
+    href="https://www.twitch.tv/"
+    class="list__link"
+    >Twitch</a>
+<!-- Youtube  -->
+<a target="blank"
+    href="https://www.youtube.com"
+    class="list__link"
+    >Youtube</a>
+<!-- Youtube  -->
+<a target="blank"
+  href="https://github.com/ZantooTheGreat"
+  class="list__link"
+  >Github</a>
+</div>
+</div>
+
+
+
+    <!-- Scripts  -->
+
+    <script src="js/time.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/weather.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+
+  <!-- Coded and designed by Miguel R. Ávila: https://github.com/MiguelRAvila -->
+</html>
