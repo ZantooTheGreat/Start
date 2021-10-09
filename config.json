@@ -55,7 +55,7 @@ secondList: [
 {name: 'ITGlue',link: 'https://consys.itglue.com/',},
 {name: 'Automate',link: 'https://us.flow.microsoft.com/en-us/?auth_upn=mbusenbark%40consysgroup.com&utm_source=office&utm_medium=app_launcher&utm_campaign=office_referrals&showFeaturedTemplates=true',},
 {name: 'Github',link: 'https://github.com/Consys-Group',},
-{name: 'Domain Checker',link: 'https://whois.domaintools.com/',},
+{name: 'Domain Check',link: 'https://whois.domaintools.com/',},
 {name: 'SysAdmin',link: 'https://www.reddit.com/r/sysadmin/',},
 ],
 thirdList: [
