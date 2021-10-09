@@ -40,20 +40,23 @@ const CONFIG = {
     // Links
     lists: {
 firstList: [
-{name: 'CW',link: 'https://na.myconnectwise.net/v2021_2/connectwise.aspx?locale=en_US&usehttps=1&fullscreen=false&session=new#XQAACAC3AQAAAAAAAAA9iIoG07$U9W$XoZrQZV53xmzzTvE8Ibss$VHxl7o9pHfOfx3JNYIHHdzaKr6Iv49gYTbvDdXyrJgj7eWUh_2wLfZiIOuixqapz9KL5ffqk7vC7v4WYlGOv1mcLy4$x0$VTkjryMzlfeyXwjaaF3LEdzPT358d4evIHqjVRNLzyLLI_58hbVAr0ijrdmn6WjxJ3f8vIcfcg5FQ52LEVx6Kb60SU9dp$FxpdZbitT4ghRi7Qgw012gDl75aLCg$4j2o2Lx65nRhrQtmT8HSQzHrlINc4TaaZX6XgcXkbHsCRxBrineFOEtaGccy1mv5Sltxf2bctiFxjY5RS1oMdFqoEsL_7x449Q==??CalendarSchedule',},
-{name: 'RMM',link: 'https://dashboard.systemmonitor.us/',},
-{name: 'ITGlue',link: 'https://consys.itglue.com/',},
-{name: 'Bookings',link: 'https://consysaudits.as.me/schedule.php',},
-{name: 'CW Sell',link: 'https://consysgroup.quosalsell.com/QuosalWeb/login.quosalweb?skin=quosal&accesskey=consysgroup_azure',},
-{name: 'Zomentum',link: 'https://accounts.zomentum.com/u/login?state=hKFo2SBYWHVkRFNEQ0I4cEpQNi1VS3A0RW9yUXRCbFpKNjFnRKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGRfUC1ielFxU00xYWg0MWttc1BESHF4d2t1RS0zUDVpo2NpZNkgd1RSSEd4Z1BId1lMaFNibWY1d0paS0g4UDNXREN3SGI',},
+{name: 'MSP',link: 'https://www.reddit.com/r/msp/',},
+{name: 'Tech Audits', link: 'https://www.office.com/?auth=2',},
+{name: 'Scheduler',link: 'https://consysaudits.as.me/schedule.php',},
+{name: 'Sell',link: 'https://consysgroup.quosalsell.com/QuosalWeb/login.quosalweb?skin=quosal&accesskey=consysgroup_azure',},
+{name: 'Scalepad',link: 'https://app.scalepad.com/signin',},
+{name: 'Onedrive',link: 'https://consysgroupinc-my.sharepoint.com/:f:/g/personal/mbusenbark_consysgroup_com/ErvWVuqpH35KnYJ4bMggldQB1yA5NjrWEfAHUrHPcFjIiA?e=NV4zMl',},
+{name: 'GoPro',link: 'https://gopro.com/login',},
+
 ],
 secondList: [
-{name: 'Tech Audits', link: 'https://www.office.com/?auth=2',},
-{name: 'Onedrive',link: 'https://consysgroupinc-my.sharepoint.com/:f:/g/personal/mbusenbark_consysgroup_com/ErvWVuqpH35KnYJ4bMggldQB1yA5NjrWEfAHUrHPcFjIiA?e=NV4zMl',},
-{name: 'GoPro',link: 'https://gopro.com/login"',},
-{name: 'Scalepad',link: 'https://app.scalepad.com/signin',},
+{name: 'CW',link: 'https://na.myconnectwise.net/',},
+{name: 'RMM',link: 'https://dashboard.systemmonitor.us/',},
+{name: 'ITGlue',link: 'https://consys.itglue.com/',},
 {name: 'Automate',link: 'https://us.flow.microsoft.com/en-us/?auth_upn=mbusenbark%40consysgroup.com&utm_source=office&utm_medium=app_launcher&utm_campaign=office_referrals&showFeaturedTemplates=true',},
 {name: 'Github',link: 'https://github.com/Consys-Group',},
+{name: 'Domain Checker',link: 'https://whois.domaintools.com/',},
+{name: 'SysAdmin',link: 'https://www.reddit.com/r/sysadmin/',},
 ],
 thirdList: [
 {name: 'Reddit', link: 'https://www.reddit.com',},
