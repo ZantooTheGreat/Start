@@ -60,6 +60,8 @@ thirdList: [
 {name: 'Twitter',link: 'https://twitter.com/home',},
 {name: 'Twitch',link: 'https://www.twitch.tv/',},
 {name: 'Youtube',link: 'https://www.youtube.com',},
+{name: 'Netflix',link: 'https://www.netflix.com/browse',},
+{name: 'Plex',link: 'https://www.plex.tv/',},
 {name: 'Github',link: 'https://github.com/ZantooTheGreat',},
     ],
     },
