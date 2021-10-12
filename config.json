@@ -42,7 +42,7 @@ const CONFIG = {
 firstList: [
 {name: 'MSP',link: 'https://www.reddit.com/r/msp/',},
 {name: 'Tech Audits', link: 'https://www.office.com/?auth=2',},
-{name: 'Scheduler',link: 'https://consysaudits.as.me/schedule.php',},
+{name: 'Scheduler',link: 'https://turbot-calliope-exx8.squarespace.com/config/scheduling/appointments.php',},
 {name: 'Sell',link: 'https://consysgroup.quosalsell.com/QuosalWeb/login.quosalweb?skin=quosal&accesskey=consysgroup_azure',},
 {name: 'Scalepad',link: 'https://app.scalepad.com/signin',},
 {name: 'Onedrive',link: 'https://consysgroupinc-my.sharepoint.com/:f:/g/personal/mbusenbark_consysgroup_com/ErvWVuqpH35KnYJ4bMggldQB1yA5NjrWEfAHUrHPcFjIiA?e=NV4zMl',},
